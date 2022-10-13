@@ -5,3 +5,59 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav {
+
+    background-color:#2081c3; 
+    padding: 20px;
+   
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 0px 0px 0px 10px;
+    
+  }
+
+  #cerveza {
+ padding: 80px 200px 30px 800px;
+  }
+
+  #principal {
+    position: relative;
+    border-radius: 10px;
+    margin: 5px 200px 0px 760px;
+    background-color: #2081c3;
+    color: white;
+    border-color: white ;
+    width: 250px;
+    height: 40px;
+
+  }
+  #principalDos {
+    position: relative;
+    border-radius: 10px;
+    margin: 5px 200px 0px 750px;
+    background-color: #2081c3;
+    color: white;
+    border-color: white ;
+    width: 300px;
+    height: 40px;
+
+  }
+
+#final {
+    background-color: #0a2c42;
+    color: white;
+    height: 30px;
+    position: relative;
+}
+
+
+

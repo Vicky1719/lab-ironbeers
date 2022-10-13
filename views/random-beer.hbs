@@ -1,0 +1,28 @@
+<div>
+    <h3>Beer</h3>
+
+<ol>
+
+    {{#each responseFromAPI}}
+
+ <li>
+    <div id="cerveza">
+    <h4 id="nombre"> {{this.name}} </h4>
+    <img src= {{this.image_url}} height="300px" >
+    <p id="descripcion"> {{this.description}} </p>
+    <p id="slogan"> {{this.tagline}} </p>
+    <p id="alimentos"> {{this.food_pairing}} </p>
+    <p id="consejo"> {{this.brewers_tips}} </p>
+    
+    </div>
+   
+    
+ </li>
+  
+
+
+ 
+
+    {{/each}}
+
+</ol>
